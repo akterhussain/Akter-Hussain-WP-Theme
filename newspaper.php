@@ -60,8 +60,9 @@ get_header();
            <a href="https://www.priyo.com/" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/np/pri.png" alt=""></a>
            <a href="https://risingbd.com/" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/np/rig.png" alt=""></a>
            <a href="http://www.rtnn.net/bangla/" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/np/rtn.png" alt=""></a>
-           <a href="http://www.dailysangram.com/" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/np/san.png" alt=""></a>
-           <a href="" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/np/son.png" alt=""></a>
+           <a href="https://dailysangram.com/" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/np/san.png" alt=""></a>
+           <a href="https://www.weeklysonarbangla.net/" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/np/sonar.png" alt=""></a>
+           <a href="http://sangbad.net.bd/" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/np/son.png" alt=""></a>
            <a href="http://amaderorthoneeti.com/" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/np/uao.png" alt=""></a>
            <a href="https://bangla.dhakatribune.com/" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/np/dtn.png" alt=""></a>
            <a href="https://sarabangla.net/" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/np/sbd.png" alt=""></a>

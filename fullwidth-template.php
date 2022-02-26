@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages
+ * Template Name: Full Width Template
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -18,7 +18,7 @@ get_header();
 <div class="content-section">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+			<div class="col-12">
 				<main class="main-section">
 					<div class="row">
 						<?php
@@ -42,15 +42,7 @@ get_header();
 						?>
 					</div><!-- .row -->
 				</main><!-- .main-section -->
-			</div><!-- col-cl-8 -->
-			<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-				<aside class="home-sidebar">
-					<?php 
-						// Template for Sidebar Popular post
-						get_template_part( 'template-parts/content', 'popular_post' );
-					?>
-				</aside><!-- .home-sidebar -->
-			</div><!-- col-cl-4 -->
+			</div><!-- col-12 -->
 		</div><!-- .row -->
 	</div><!-- .container -->
 </div><!-- .content-section -->

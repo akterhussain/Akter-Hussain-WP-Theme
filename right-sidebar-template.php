@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages
+ * Template Name: Right Sidebar Template
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -18,7 +18,7 @@ get_header();
 <div class="content-section">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
 				<main class="main-section">
 					<div class="row">
 						<?php
@@ -43,11 +43,11 @@ get_header();
 					</div><!-- .row -->
 				</main><!-- .main-section -->
 			</div><!-- col-cl-8 -->
-			<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
 				<aside class="home-sidebar">
 					<?php 
-						// Template for Sidebar Popular post
-						get_template_part( 'template-parts/content', 'popular_post' );
+						// Function for right sidebar
+						dynamic_sidebar('right-sidebar');
 					?>
 				</aside><!-- .home-sidebar -->
 			</div><!-- col-cl-4 -->

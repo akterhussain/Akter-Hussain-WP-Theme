@@ -159,8 +159,8 @@ add_action( 'after_setup_theme', 'akter_hussain_content_width', 0 );
 function akter_hussain_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'akter-hussain' ),
-			'id'            => 'sidebar-1',
+			'name'          => esc_html__( 'Right Sidebar', 'akter-hussain' ),
+			'id'            => 'right-sidebar',
 			'description'   => esc_html__( 'Add widgets here.', 'akter-hussain' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
