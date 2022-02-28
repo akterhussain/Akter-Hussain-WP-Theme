@@ -11,54 +11,45 @@
  *
  * @package Akter_Hussain
  */
-
-get_header();
 ?>
 
+<?php
+if ( is_home() ) :
+    get_header( 'home' );
+else :
+    get_header();
+endif;
+?>
 
-<div class="content-section">
+<main class="home-page">
 	<div class="container">
-		<div class="row">
-			<div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-				<main class="main-section">
-					<div class="row">
-						<?php
-						if ( have_posts() ) :
-
-							/* Start the Loop */
-							while ( have_posts() ) :
-								the_post(); 
-
-								// Template for main content
-								get_template_part( 'template-parts/content', 'main' );
-								
-							endwhile; 
-
-								// Template for main pagination
-								get_template_part( 'template-parts/content', 'pagination' );
-
-							else :
-
-								// Template for not found any post
-								get_template_part( 'template-parts/content', 'none' );
-
-						endif; 
-							?>
-						
-					</div><!-- .row -->
-				</main><!-- .main-section -->
-			</div><!-- col-cl-8 -->
-			<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-				<aside class="home-sidebar">
-					<?php 
-						// Template for Sidebar Popular post
-						get_template_part( 'template-parts/content', 'popular_post' );
-					?>
-				</aside><!-- .home-sidebar -->
-			</div><!-- col-cl-4 -->
-		</div><!-- .row -->
-	</div><!-- .container -->
-</div><!-- .content-section -->
+		<div class="col-12">
+			<div class="home-content">
+				<div class="home-photo">
+					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/akter_photo.png" alt="">
+				</div>
+				<div class="home-logo">
+					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/akter_logo.png" alt="">
+				</div>
+				<div class="home-text">
+					<p>Experienced full-stack developer specializing in WordPress, PHP, SQL, MySQL, Boostrap, Responsive HTML, Web Apps, Photoshop Design, Illustrator arts, javaScript, jQuery, HTML5, and CSS3.</p>
+				</div>
+				<div class="home-menu">
+				<?php
+					wp_nav_menu( array(
+						'theme_location' => 'home_menu'
+					) );
+				?>
+				</div>						
+			</div>
+		</div>
+	</div>
+</main>
 
 <?php
-get_footer();
+if ( is_home() ) :
+    get_footer( 'home' );
+else :
+    get_footer();
+endif;
+?>

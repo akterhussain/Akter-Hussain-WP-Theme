@@ -52,6 +52,7 @@ if ( ! function_exists( 'akter_hussain_setup' ) ) :
 		register_nav_menus(
 			array(
 				'primary_menu' => esc_html__( 'Primary Menu', 'akter-hussain' ),
+				'home_menu' => esc_html__( 'Home Menu', 'akter-hussain' ),
 				'footer_menu' => esc_html__( 'Footer Menu', 'akter-hussain' ),
 				'category_menu' => esc_html__( 'Category Menu', 'akter-hussain' ),
 			)

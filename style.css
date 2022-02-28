@@ -384,6 +384,8 @@ template {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body,
 button,
 input,
@@ -391,7 +393,7 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+    font-family: 'Kanit', sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -988,8 +990,9 @@ Start Defelt style
 ======================================*/
 
 body{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
+	font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
 }
 
 .content-section {
@@ -1023,6 +1026,68 @@ section.newspaper {
     transition: all 0.5s;
 }
 
+/*=======================================
+Start Home page
+======================================*/
+
+.home-page{
+    background-color: #006666;
+    height: 100vh;
+}
+.home-content{
+    text-align: center;
+    padding-top: 50px;
+}
+.home-photo img{
+    width: 300px;
+    height: auto;
+}
+.home-logo img{
+    width: 350px;
+    margin-top: -10px;
+}
+.home-text p{
+    color: #fff;
+    padding: 20px 225px;
+    margin: 0;
+}
+.home-menu {
+    text-align: center;
+}
+.home-menu ul{
+    margin: 0;
+    padding: 0;
+}
+.home-menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px 0 5px;
+}
+
+.home-menu ul li a{
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.home-menu ul li a:hover,
+.home-menu ul li a:focus,
+.home-menu ul li a:active{
+    text-decoration: none;
+    color: #80CBC4;
+}
+
+
+
+
+
+
+
+
 
 
 /*=======================================
@@ -1031,7 +1096,7 @@ Start Header section
 
 
 header.header-section {
-    background: #006699;
+    background: #006666;
     padding: 15px 0;
     position: fixed;
     width: 100%;
@@ -1118,7 +1183,7 @@ h2.blog-title {
 }
 
 h2.blog-title a {
-    color: #006699;
+    color: #006666;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -1133,7 +1198,7 @@ h2.blog-title a {
 }
 
 .cate-read a {
-    color: #006699;
+    color: #006666;
     display: block;
      -webkit-transition: all 0.5s;
      -o-transition: all 0.5s;
@@ -1141,7 +1206,7 @@ h2.blog-title a {
 }
 
 a.read-more {
-    background: #006699;
+    background: #006666;
     display: block;
     color: #fff;
     padding: 10px;
@@ -1226,7 +1291,7 @@ h2.popular-title {
 }
 
 .popular-right h2 a {
-    color: #006699;
+    color: #006666;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -1281,7 +1346,7 @@ nav.footer-social ul li a:focus,
 .copyright-text p a:hover,
 .copyright-text p a:focus
  {
-    color: #006699;
+    color: #006666;
     text-decoration: none;
 }
 
@@ -1439,14 +1504,14 @@ h3.time-category {
 h2.related-post-title a,
 span.single-category a,
 footer.single-footer a {
-    color: #006699;
+    color: #006666;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
 
 .single-content a {
-    color: #006699;
+    color: #006666;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -1588,7 +1653,7 @@ nav.about-menu ul li {
 }
 
 nav.about-menu ul li a {
-    background: #006699;
+    background: #006666;
     font-size: 20px;
     width: 40px;
     height: 40px;
@@ -1735,7 +1800,7 @@ label.yoursubject::after{
 label.textarea textarea:focus,
 .contact-content form input:focus{
 	border-radius: 0;
-	border: 1px solid #006699;
+	border: 1px solid #006666;
 }
 
 
@@ -1795,7 +1860,7 @@ span.con-add-text {
 }
 
 .contact-icon ul li a {
-    color: #006699;
+    color: #006666;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -1806,7 +1871,7 @@ span.con-add-text {
     text-decoration: none;
 }
 .contact-content form button.btn.btn-primary{
-	background: #006699;
+	background: #006666;
 	color: #fff;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -1892,7 +1957,7 @@ p.comment-form-cookies-consent label {
 .conmment-area input#submit {
     width: 110px;
     padding: 15px 10px;
-    background: #006699;
+    background: #006666;
     color: #fff;
     border: none;
 }
@@ -1926,7 +1991,7 @@ p.comment-form-cookies-consent label {
 }
 
 .akter-posts-pagination a.page-numbers {
-    background: #006699;
+    background: #006666;
     padding: 6px 11px;
     color: #fff;
     font-size: 20px;
@@ -2022,7 +2087,7 @@ button.search-option:active {
     position: absolute;
     right: 23px;
     top: 30px;
-    background: #006699;
+    background: #006666;
     border: none;
     border-radius: 0;
     color: #fff;
@@ -2061,7 +2126,7 @@ button.search-option:active {
     position: absolute;
     right: 23px;
     top: 30px;
-    background: #006699;
+    background: #006666;
     border: none;
     border-radius: 0;
     color: #fff;
@@ -2160,12 +2225,12 @@ nav.mobile-menu ul li a {
 
 nav.mobile-menu ul li a:hover,
 nav.mobile-menu ul li a:focus {
-    color: #006699;
+    color: #006666;
     text-decoration: none;
 }
 
 nav.mobile-menu ul li.current-menu-item a{
-    color: #006699;
+    color: #006666;
     text-decoration: none;
 }
 
@@ -2309,12 +2374,12 @@ nav.mobile-menu ul li a {
 
 nav.mobile-menu ul li a:hover,
 nav.mobile-menu ul li a:focus {
-    color: #006699;
+    color: #006666;
     text-decoration: none;
 }
 
 nav.mobile-menu ul li.current-menu-item a{
-    color: #006699;
+    color: #006666;
     text-decoration: none;
 }
 
@@ -2459,12 +2524,12 @@ nav.mobile-menu ul li a {
 
 nav.mobile-menu ul li a:hover,
 nav.mobile-menu ul li a:focus {
-    color: #006699;
+    color: #006666;
     text-decoration: none;
 }
 
 nav.mobile-menu ul li.current-menu-item a{
-    color: #006699;
+    color: #006666;
     text-decoration: none;
 }
 
@@ -2574,8 +2639,8 @@ Start Header section
 
 
 header.header-section {
-    background: #006699;
-    padding: 15px 0;
+    background: #006666;
+    padding: 20px 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -2588,6 +2653,7 @@ header.header-section {
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+    margin-bottom: 5px;
 }
 
 .site-branding img:hover {
@@ -2620,7 +2686,7 @@ nav.akter-navigation ul li a {
 }
 
 nav.akter-navigation ul li a:hover {
-    color: #231F20;
+    color: #80CBC4;
     text-decoration: none;
 }
 
@@ -2661,7 +2727,7 @@ h2.blog-title {
 }
 
 h2.blog-title a {
-    color: #006699;
+    color: #006666;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -2676,7 +2742,7 @@ h2.blog-title a {
 }
 
 .cate-read a {
-    color: #006699;
+    color: #006666;
     display: block;
      -webkit-transition: all 0.5s;
      -o-transition: all 0.5s;
@@ -2684,7 +2750,7 @@ h2.blog-title a {
 }
 
 a.read-more {
-    background: #006699;
+    background: #006666;
     display: block;
     color: #fff;
     padding: 10px;
@@ -2769,7 +2835,7 @@ h2.popular-title {
 }
 
 .popular-right h2 a {
-    color: #006699;
+    color: #006666;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -2824,7 +2890,7 @@ nav.footer-social ul li a:focus,
 .copyright-text p a:hover,
 .copyright-text p a:focus
  {
-    color: #006699;
+    color: #006666;
     text-decoration: none;
 }
 
@@ -2982,14 +3048,14 @@ h3.time-category {
 h2.related-post-title a,
 span.single-category a,
 footer.single-footer a {
-    color: #006699;
+    color: #006666;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
 
 .single-content a {
-    color: #006699;
+    color: #006666;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -3131,7 +3197,7 @@ nav.about-menu ul li {
 }
 
 nav.about-menu ul li a {
-    background: #006699;
+    background: #006666;
     font-size: 20px;
     width: 40px;
     height: 40px;
@@ -3278,7 +3344,7 @@ label.yoursubject::after{
 label.textarea textarea:focus,
 .contact-content form input:focus{
 	border-radius: 0;
-	border: 1px solid #006699;
+	border: 1px solid #006666;
 }
 
 
@@ -3338,7 +3404,7 @@ span.con-add-text {
 }
 
 .contact-icon ul li a {
-    color: #006699;
+    color: #006666;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -3349,7 +3415,7 @@ span.con-add-text {
     text-decoration: none;
 }
 .contact-content form button.btn.btn-primary{
-	background: #006699;
+	background: #006666;
 	color: #fff;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -3435,7 +3501,7 @@ p.comment-form-cookies-consent label {
 .conmment-area input#submit {
     width: 110px;
     padding: 15px 10px;
-    background: #006699;
+    background: #006666;
     color: #fff;
     border: none;
 }
@@ -3469,7 +3535,7 @@ p.comment-form-cookies-consent label {
 }
 
 .akter-posts-pagination a.page-numbers {
-    background: #006699;
+    background: #006666;
     padding: 6px 11px;
     color: #fff;
     font-size: 20px;
@@ -3565,7 +3631,7 @@ button.search-option:active {
     position: absolute;
     right: 23px;
     top: 30px;
-    background: #006699;
+    background: #006666;
     border: none;
     border-radius: 0;
     color: #fff;
@@ -3604,7 +3670,7 @@ button.search-option:active {
     position: absolute;
     right: 23px;
     top: 30px;
-    background: #006699;
+    background: #006666;
     border: none;
     border-radius: 0;
     color: #fff;
@@ -3631,7 +3697,7 @@ button.menu-option{
 }
 
 .submit-area .wpcf7-form-control.wpcf7-submit {
-	background: #006699;
+	background: #006666;
 	color: #fff;
 	font-size: 20px;
 	border: none;
@@ -3647,7 +3713,7 @@ button.menu-option{
 
 
 .submit-area .wpcf7-form-control.wpcf7-submit {
-	background: #006699;
+	background: #006666;
 	color: #fff;
 	font-size: 20px;
 	border: none;
