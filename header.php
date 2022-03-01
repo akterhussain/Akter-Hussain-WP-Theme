@@ -40,27 +40,6 @@
 							?>
 						</nav><!-- .akter-navigation -->
 					</div><!-- rimary-menu -->
-					<div class="search-area">
-						<button class="menu-option"><i class="fas fa-bars"></i></button>
-						<div class="mobiile-menu-area">
-							<nav class="mobile-menu">
-							<?php
-							wp_nav_menu( array(
-								'theme_location' => 'primary_menu'
-							) );
-							?>
-						</nav><!-- mobile-menu -->
-						<div class="menu-hide"></div>
-						</div><!-- mobiile-menu-area -->
-						<button class="search-option"><i class="fas fa-search"></i></button>
-						<div class="search-content">
-							<form action="<?php echo home_url('/'); ?>" method="get">
-								<input class="input-search-text" type="search" placeholder="Search keyword..." name="s">
-								<input type="submit" name="" value="Search">
-							</form>
-							<div class="search-hide"></div>
-						</div>
-						</div><!-- search-content -->
 					</div><!--search-area -->
 				</div><!-- .col-xl-8 -->
 			</div><!-- .row -->

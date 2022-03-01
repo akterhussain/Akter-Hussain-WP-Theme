@@ -401,6 +401,7 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
+	font-family: 'Kanit', sans-serif;
 }
 
 p {
@@ -842,10 +843,6 @@ a:hover, a:active {
 	display: block;
 }
 
-.post,
-.page {
-	margin: 0 0 1.5em;
-}
 
 .updated:not(.published) {
 	display: none;
@@ -992,7 +989,7 @@ Start Defelt style
 body{
 	font-family: 'Kanit', sans-serif;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .content-section {
@@ -1033,6 +1030,7 @@ Start Home page
 .home-page{
     background-color: #006666;
     height: 100vh;
+    font-weight: 200;
 }
 .home-content{
     text-align: center;
@@ -1881,7 +1879,7 @@ span.con-add-text {
 }
 .contact-content form button.btn.btn-primary:hover,
 .contact-content form button.btn.btn-primary:focus{
-	background: #231F20;
+	background: #80CBC4;
 }
 
 .contact-icon::after {
@@ -2062,10 +2060,6 @@ button.search-option:active {
     outline: none;
 }
 
-.primary-menu {
-    width: 95%;
-    float: left;
-}
 
 .search-area {
     width: 5%;
@@ -2685,16 +2679,14 @@ nav.akter-navigation ul li a {
 
 }
 
-nav.akter-navigation ul li a:hover {
+nav.akter-navigation ul li a:hover,
+nav.akter-navigation ul li.current_page_item a,
+nav.akter-navigation ul li.current-menu-item a
+{
     color: #80CBC4;
     text-decoration: none;
 }
 
-
-nav.akter-navigation ul li.current-menu-item a{
-    color: #231F20;
-    text-decoration: none;
-}
 
 
 /*=======================================
@@ -2993,13 +2985,12 @@ nav.contact-manu ul li {
 
 nav.contact-manu ul li i{
     background: #404040;
-    margin-right: 15px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     color: #DFDFDF;
-    padding: 8px 0 0 0;
-    margin: 0 0 4px 0px;
+    padding: 11px 0 0 0;
+    margin: 0 0 5px 0px;
     text-align: center;
 }
 
@@ -3025,7 +3016,7 @@ li.li-address {
 span.address {
     position: absolute;
     top: 8px;
-    left: 40px;
+    left: 50px;
 }
 
 /*=======================================
@@ -3602,13 +3593,12 @@ button.search-option:hover,
 button.search-option:focus,
 button.search-option:active {
     border: none;
-    color: #231F20;
+    color: #80CBC4;
     outline: none;
 }
 
 .primary-menu {
-    width: 95%;
-    float: left;
+
 }
 
 .search-area {
