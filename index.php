@@ -26,10 +26,10 @@ endif;
 		<div class="col-12">
 			<div class="home-content">
 				<div class="home-photo">
-					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/akter_photo.png" alt="">
+					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/akter_photo.png" alt="akter hussain">
 				</div>
 				<div class="home-logo">
-					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/akter_logo.png" alt="">
+					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/akter_logo.png" alt="akter hussain">
 				</div>
 				<div class="home-text">
 					<p>Experienced full-stack developer specializing in WordPress, PHP, SQL, MySQL, Boostrap, Responsive HTML, Web Apps, Photoshop Design, Illustrator arts, javaScript, jQuery, HTML5, and CSS3.</p>

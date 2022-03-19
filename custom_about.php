@@ -31,7 +31,7 @@ get_header();
 						<div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 offset-lg-1 col-xl-3 offset-xl-1">
 							<div class="about-image">
 								<img class="about-photo" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/akter_hussain.jpg" alt="akter hussain">
-								<img class="about-logo" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/logo_black.png" alt="akter hussain">
+								<img class="about-logo" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/akter_logo_black.png" alt="akter hussain">
 							</div><!-- about-image -->
 						</div><!-- col-xl-6 -->
 						<div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
@@ -49,13 +49,13 @@ get_header();
 						<div class="col-xl-12">
 							<footer class="page-footer">
 								<nav class="about-menu">
-									<ul>
-										<li><a target="_blank" href="#"><i class="fab fa-linkedin-in"></i></a></li>
-										<li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a target="_blank" href="#"><i class="fab fa-github"></i></a></li>
-										<li><a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
-									</ul>
+								<ul>
+									<li><a target="_blank" href="https://www.facebook.com/akterhussainbd"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a target="_blank" href="https://www.linkedin.com/in/akterhussain/"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a target="_blank" href="https://twitter.com/akterhussainbd"><i class="fab fa-twitter"></i></a></li>
+									<li><a target="_blank" href="https://github.com/akterhussain"><i class="fab fa-github"></i></a></li>
+									<li><a target="_blank" href="https://www.youtube.com/channel/UCYjumGflCTLlOfnlhKjyW-w"><i class="fab fa-youtube"></i></a></li>
+								</ul>
 								</nav><!-- about-menu -->
 							</footer><!-- page-header -->
 						</div><!-- col-xl-12 -->
