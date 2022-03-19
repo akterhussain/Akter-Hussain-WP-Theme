@@ -36,6 +36,7 @@ get_header();
 						<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 							<div class="service-text">
 								<ul>
+									<li><i class="fas fa-angle-double-right"></i>WordPress Speed Optimization</li>
 									<li><i class="fas fa-angle-double-right"></i>WordPress Theme Development</li>
 									<li><i class="fas fa-angle-double-right"></i>PHP Web Application</li>
 									<li><i class="fas fa-angle-double-right"></i>WordPress Theme Customization</li>
