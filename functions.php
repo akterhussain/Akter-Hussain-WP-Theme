@@ -105,7 +105,7 @@ if ( ! function_exists( 'akter_hussain_setup' ) ) :
 
 		//custom_excerpt_length
 		function custom_excerpt_length( $length ) {
-			return 30;
+			return 40;
 		}
 		add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
@@ -169,6 +169,32 @@ function akter_hussain_widgets_init() {
 			'after_title'   => '</h2>',
 		)
 	);
+
+	// Single page sidebar
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Single Page Sidebar', 'akter-hussain' ),
+			'id'            => 'single-sidebar',
+			'description'   => esc_html__( 'Add widgets here.', 'akter-hussain' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+
+		// Blog page sidebar
+		register_sidebar(
+			array(
+				'name'          => esc_html__( 'Blog Page Sidebar', 'akter-hussain' ),
+				'id'            => 'blog-sidebar',
+				'description'   => esc_html__( 'Add widgets here.', 'akter-hussain' ),
+				'before_widget' => '<section id="%1$s" class="widget %2$s">',
+				'after_widget'  => '</section>',
+				'before_title'  => '<h2 class="widget-title">',
+				'after_title'   => '</h2>',
+			)
+		);
 }
 add_action( 'widgets_init', 'akter_hussain_widgets_init' );
 

@@ -10,8 +10,9 @@
 ?>
 
 <div class="search-home">
-	<form action="<?php echo home_url('/'); ?>" method="get">
-		<input class="input-search-text" type="search" placeholder="Search keyword..." name="s">
+	<form class="akter-search-from" action="<?php echo home_url('/'); ?>" method="get">
+		<input class="input-search-text" type="search" placeholder="Search keyword..." name="s" required>
 		<input type="submit" name="" value="Search">
 	</form>
 </div>
+

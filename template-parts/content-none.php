@@ -34,7 +34,7 @@
 		elseif ( is_search() ) :
 			?>
 
-			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'akter-hussain' ); ?></p>
+			<p><?php esc_html_e( 'Sorry, nothing matched your search terms. Please try again with some different keywords.', 'akter-hussain' ); ?></p>
 			
 			<?php
 			// Template for not found any post

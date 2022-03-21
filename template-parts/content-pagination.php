@@ -14,8 +14,8 @@
 	the_posts_pagination( array(
 		'screen_reader_text' => __( ' ' ),
 		'mid_size' => 2,
-		'prev_text' => __( '<i class="fas fa-chevron-left"></i>', 'akter-hussain' ),
-		'next_text' => __( '<i class="fas fa-chevron-right"></i>', 'akter-hussain' ),
+		'prev_text' => __( '<', 'akter-hussain' ),
+		'next_text' => __( '>', 'akter-hussain' ),
 	) );  
 	?>
 </div><!-- akter-posts-pagination -->

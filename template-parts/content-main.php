@@ -9,16 +9,16 @@
 
 ?>
 
-<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+<div class="col-12">
 	<article class="blog-post">
 		<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('post-image') ?></a>
 		<div class="blog-text">
-			<h4 class="post-titme"><?php the_time('F j, Y'); ?></h4>
+			<div class="time-cate">
+				<span class="post-time"><?php the_time('F j, Y'); ?></span>
+				<span class="post-cate"><?php the_category( ' | ' ); ?></span>
+			</div>
 			<h2 class="blog-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			<?php the_excerpt(); ?>
-			<div class="cate-read">
-				<?php the_category( ' | ' ); ?>
-			</div><!-- .cate-read -->
 		</div><!-- blog-text -->
 		<a class="read-more" href="<?php the_permalink(); ?>">Read More</a>
 	</article><!-- .blog-post -->

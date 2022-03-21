@@ -1,6 +1,6 @@
 <?php
 /**
- * The main template file
+ * 
  *
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
@@ -11,14 +11,8 @@
  *
  * @package Akter_Hussain
  */
-?>
 
-<?php
-if ( is_home() ) :
     get_header( 'home' );
-else :
-    get_header();
-endif;
 ?>
 
 <main class="home-page">
@@ -47,9 +41,4 @@ endif;
 </main>
 
 <?php
-if ( is_home() ) :
     get_footer( 'home' );
-else :
-    get_footer();
-endif;
-?>

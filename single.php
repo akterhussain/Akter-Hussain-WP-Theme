@@ -38,7 +38,10 @@ get_header();
 			</div><!-- col-xl-8 -->
 			<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
 				<aside class="home-sidebar">
-
+					<?php 
+						// Function for right sidebar
+						dynamic_sidebar('single-sidebar');
+					?>
 					<?php 
 						// Template for Sidebar Popular post
 						get_template_part( 'template-parts/content', 'popular_post' );
