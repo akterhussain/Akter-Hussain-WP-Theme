@@ -1102,9 +1102,13 @@ header.header-section {
     z-index: 1000;
 }
 
+.site-branding {
+    padding: 4px 0;
+}
+
 .site-branding img {
     height: auto;
-    width: 250px;
+    width: 300px;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -1147,6 +1151,79 @@ nav.akter-navigation ul li.current_page_item a{
     text-decoration: none;
 }
 
+.primary-menu {
+    width: 95%;
+    float: left;
+    padding-right: 10px;
+    margin: 6px 0;
+}
+
+.top-search-area {
+    width: 5%;
+    float: right;
+    position: relative;
+}
+
+button.top-search-btn {
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    display: inline-block;
+    padding: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+button.top-search-btn:hover,
+button.top-search-btn:focus{
+    color: #80CBC4;
+    border: 1px solid #80CBC4;
+}
+
+.search-content {
+    display: none;
+    position: absolute;
+    top: 40px;
+    width: 800px;
+    height: 300px;
+    background: #fff;
+    right: -3px;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 1px #000;
+    box-shadow: 0 0 1px #000;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.search-content .search-home .akter-search-from{
+    margin: 104px 178px;
+}
+
+.search-hide{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background: #000;
+	z-index: -1;
+	top: 0;
+	right: -45px;
+	opacity: 0;
+}
 
 /*=======================================
 Start Blog Post section
@@ -2038,19 +2115,7 @@ h1.not-title {
     font-size: 20px;
 }
 
-.search-content {
-    display: none;
-    position: absolute;
-    top: 24px;
-    width: 300px;
-    height: 100px;
-    background: #fff;
-    right: 0;
-    padding: 20px;
-    opacity: 0.9;
-    -webkit-box-shadow: 0 0 1px #000;
-            box-shadow: 0 0 1px #000;
-}
+
 
 button.search-option {
     background: none;
@@ -2077,14 +2142,6 @@ button.search-option:active {
     position: relative;
 }
 
-.search-content form input.input-search-text {
-    position: absolute;
-    top: 30px;
-    left: 25px;
-    width: 250px;
-    border-radius: 0;
-    padding: 5px 68px 5px 5px;
-}
 
 .search-content input[type="submit"] {
     position: absolute;
@@ -2098,16 +2155,6 @@ button.search-option:active {
     padding: 10px 12px;
 }
 
-.search-hide{
-	position: absolute;
-	width: 100vw;
-	height: 100vh;
-	background: #000;
-	z-index: -1;
-	top: 0;
-	right: -45px;
-	opacity: 0;
-}
 
 .akter-search-from {
     position: relative;
@@ -2623,13 +2670,7 @@ span.con-add-text {
     right: -3595px;
 }
 
-.primary-menu {
-    width: 93%;
-}
 
-.search-area {
-    width: 7%;
-}
 
 .submit-area .wpcf7-form-control.wpcf7-submit {
 	background: #006666;

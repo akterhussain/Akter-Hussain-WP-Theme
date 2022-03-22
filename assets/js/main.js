@@ -5,11 +5,11 @@
 
 
 	  // search button
-	 $(".search-option").click(function(){
+	 $(".top-search-btn").click(function(){
 	    $(".search-content").slideToggle("slow");
 	  });
 
-	 $(".search-option").click(function(){
+	 $(".top-search-btn").click(function(){
 	    $(".mobiile-menu-area").slideUp("slow");
 	  });
 

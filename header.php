@@ -39,9 +39,23 @@
 							) );
 							?>
 						</nav><!-- .akter-navigation -->
-					</div><!-- rimary-menu -->
-					</div><!--search-area -->
+					</div><!-- primary-menu -->
+					<div class="top-search-area">
+						<button class="top-search-btn"><i class="fas fa-search"></i></button>
+						<div class="search-content">
+							<?php
+							// Template for search form
+							get_template_part( 'template-parts/content', 'search_form' );
+							?>
+						</div>
+						<div class="search-hide"></div>
+					</div>
 				</div><!-- .col-xl-8 -->
 			</div><!-- .row -->
 		</div><!-- .container -->
 	</header><!-- .header-section -->
+
+
+
+
+
