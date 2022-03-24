@@ -58,9 +58,6 @@ get_header();
 			<div class="col-12 col-sm-12 col-md-12 col-lg-4 offset-lg-1 col-xl-4 offset-xl-1">
 				<aside class="home-sidebar">
 					<?php 
-						// Blog Right side bar											
-						dynamic_sidebar('blog-sidebar');
-
 						// Template for Sidebar Popular post
 						get_template_part( 'template-parts/content', 'popular_post' );
 					?>

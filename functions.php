@@ -53,8 +53,8 @@ if ( ! function_exists( 'akter_hussain_setup' ) ) :
 			array(
 				'primary_menu' => esc_html__( 'Primary Menu', 'akter-hussain' ),
 				'home_menu' => esc_html__( 'Home Menu', 'akter-hussain' ),
-				'footer_menu' => esc_html__( 'Footer Menu', 'akter-hussain' ),
-				'category_menu' => esc_html__( 'Category Menu', 'akter-hussain' ),
+				'learn_more_menu' => esc_html__( 'Learn More Menu', 'akter-hussain' ),
+				'read_more_menu' => esc_html__( 'Read More Menu', 'akter-hussain' ),
 			)
 		);
 
@@ -169,32 +169,6 @@ function akter_hussain_widgets_init() {
 			'after_title'   => '</h2>',
 		)
 	);
-
-	// Single page sidebar
-	register_sidebar(
-		array(
-			'name'          => esc_html__( 'Single Page Sidebar', 'akter-hussain' ),
-			'id'            => 'single-sidebar',
-			'description'   => esc_html__( 'Add widgets here.', 'akter-hussain' ),
-			'before_widget' => '<section id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</section>',
-			'before_title'  => '<h2 class="widget-title">',
-			'after_title'   => '</h2>',
-		)
-	);
-
-		// Blog page sidebar
-		register_sidebar(
-			array(
-				'name'          => esc_html__( 'Blog Page Sidebar', 'akter-hussain' ),
-				'id'            => 'blog-sidebar',
-				'description'   => esc_html__( 'Add widgets here.', 'akter-hussain' ),
-				'before_widget' => '<section id="%1$s" class="widget %2$s">',
-				'after_widget'  => '</section>',
-				'before_title'  => '<h2 class="widget-title">',
-				'after_title'   => '</h2>',
-			)
-		);
 }
 add_action( 'widgets_init', 'akter_hussain_widgets_init' );
 

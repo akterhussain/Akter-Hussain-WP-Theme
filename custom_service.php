@@ -23,7 +23,7 @@ get_header();
 					<div class="row">
 						<div class="col-xl-12">
 							<header class="page-header">
-								<h1 class="page-title">My Sercive</h1>
+								<h1 class="page-title">My Services</h1>
 							</header><!-- page-header -->
 						</div><!-- col-xl-12 -->
 					</div><!-- .row -->	

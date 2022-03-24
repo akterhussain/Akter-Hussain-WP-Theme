@@ -32,7 +32,7 @@
 							<nav class="footer-menu">
 								<?php
 								wp_nav_menu( array(
-									'theme_location' => 'footer_menu'
+									'theme_location' => 'learn_more_menu'
 								) );
 								?>
 							</nav>
@@ -46,7 +46,7 @@
 							<nav class="footer-menu">
 								<?php
 								wp_nav_menu( array(
-									'theme_location' => 'category_menu'
+									'theme_location' => 'read_more_menu'
 								) );
 								?>
 							</nav>

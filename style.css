@@ -1079,19 +1079,9 @@ Start Home page
     color: #80CBC4;
 }
 
-
-
-
-
-
-
-
-
-
 /*=======================================
 Start Header section
 ======================================*/
-
 
 header.header-section {
     background: #006666;
@@ -1221,7 +1211,7 @@ button.top-search-btn:focus{
 	background: #000;
 	z-index: -1;
 	top: 0;
-	right: -45px;
+	right: -120px;
 	opacity: 0;
 }
 
@@ -2162,7 +2152,7 @@ button.search-option:active {
 }
 .search-home form input.input-search-text {
     border-radius: 4px;
-    padding: 5px 80px 5px 10px;
+    padding: 5px 90px 5px 10px;
     line-height: 40px;
     display: block;
     width: 100%;
@@ -2212,7 +2202,6 @@ button.menu-option{
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
 
 .akter-navigation{
 	display: none;
